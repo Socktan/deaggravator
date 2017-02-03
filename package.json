@@ -18,12 +18,7 @@
   },
   "homepage": "https://github.com/Socktan/socktan.com#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "bower": "^1.7.9",
-    "bower-requirejs": "^1.2.0",
-    "chai": "^3.5.0",
     "compression": "^1.6.2",
-    "csslint-stylish": "0.0.4",
     "express": "^4.14.0",
     "grunt": "^1.0.1",
     "grunt-bump": "^0.8.0",
@@ -38,17 +33,8 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express-server": "^0.5.3",
-    "grunt-mocha-phantomjs": "^4.0.0",
     "grunt-shell": "^1.3.1",
-    "jshint": "*",
-    "jshint-junit-reporter": "^0.2.2",
-    "jshint-stylish": "*",
-    "less-plugin-autoprefix": "^1.5.1",
-    "less-plugin-clean-css": "^1.5.1",
-    "mocha": "^3.0.2",
-    "mongoose": "^4.6.0",
     "multer": "^1.2.1",
-    "phantomjs-prebuilt": "^2.1.12",
     "requirejs": "^2.2.0"
   }
 }

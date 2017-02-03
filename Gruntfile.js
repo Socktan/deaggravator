@@ -30,7 +30,7 @@
                         'demo/**',
                         'fonts/**',
                         'js/**/*',
-                        'media/**/*'
+                        'media/'
                     ],
                     dest: 'dist'
                 },
@@ -142,17 +142,6 @@
                     files: watchedFiles,
                     tasks: [
                         'default'
-                    ]
-                },
-                mocha: {
-                    files: [
-                        'js/app/**/*',
-                        'test/**/*',
-                        'Gruntfile.js',
-                        'test.html'
-                    ],
-                    tasks: [
-                        'mocha'
                     ]
                 }
             }
