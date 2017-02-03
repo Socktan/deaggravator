@@ -30,7 +30,7 @@
                         'demo/**',
                         'fonts/**',
                         'js/**/*',
-                        'media/'
+                        'media/**/*'
                     ],
                     dest: 'dist'
                 }
