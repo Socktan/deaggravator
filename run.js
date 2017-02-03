@@ -21,7 +21,7 @@ var multer = require('multer');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        console.log(file);
+        //console.log(file);
         cb(null, 'dist/media');
     },
     filename: function (req, file, cb) {
