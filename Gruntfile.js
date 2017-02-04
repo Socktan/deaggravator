@@ -4,9 +4,6 @@
 
     module.exports = function (grunt) {
 
-        /**
-         * Grunt Tasks and Configurations
-         */
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
             copy: {
