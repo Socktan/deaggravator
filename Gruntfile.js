@@ -4,18 +4,6 @@
 
     module.exports = function (grunt) {
 
-        var watchedFiles = [
-            'css/**/*',
-            'fonts/**/*',
-            'img/**/*',
-            'js/**/*',
-            'media/**/*',
-            '*.html',
-            '*.json',
-            '*.js',
-            '!dist'
-        ];
-
         /**
          * Grunt Tasks and Configurations
          */
@@ -25,12 +13,13 @@
                 build: {
                     expand: true,
                     src: [
-                        '*.html',
-                        'img/**',
-                        'demo/**',
-                        'fonts/**',
+                        'fonts/**/*',
+                        'img/**/*',
                         'js/**/*',
-                        'media/**/*'
+                        'media/**/*',
+                        '*.html',
+                        '*.json',
+                        '*.js'
                     ],
                     dest: 'dist'
                 }
@@ -61,7 +50,16 @@
             },
             watch: {
                 build: {
-                    files: watchedFiles,
+                    files: [
+                        'fonts/**/*',
+                        'img/**/*',
+                        'js/**/*',
+                        'media/**/*',
+                        '*.html',
+                        '*.json',
+                        '*.js',
+                        '!dist'
+                    ],
                     tasks: [
                         'build'
                     ]

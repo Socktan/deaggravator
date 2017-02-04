@@ -1,4 +1,4 @@
-socktan.com
+Deaggravator
 ===========
 
-Modular *Twitter Bootstrap*, *Handlebars*, *BackboneJS* implemented with AMD (RequireJS)
+File uploader and distributor.
