@@ -10,6 +10,7 @@
                 build: {
                     expand: true,
                     src: [
+                        'demo/**/*',
                         'fonts/**/*',
                         'img/**/*',
                         'js/**/*',
